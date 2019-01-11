@@ -1,10 +1,12 @@
+package com.stackroute.pe5testCases;
+
+import com.stackroute.pe5.TwoKeyValue;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -60,9 +62,7 @@ public class TwoKeyValueTest {
     public void testTwoKeyValueNeutral()
     {
         Map<String,String> map= new TreeMap<>();
-
         Map<String,String> actualMap= twoKeyValue.changeTwoKeyValue(map);
-
         assertNull(actualMap);
     }
 }

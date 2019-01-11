@@ -1,3 +1,6 @@
+package com.stackroute.pe5testCases;
+
+import com.stackroute.pe5.StringAppearsMorethan2;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
